@@ -2,6 +2,7 @@
   <Folder Name="/src/" />
   <Folder Name="/src/API/" />
   <Folder Name="/src/Core/">
+    <Project Path="GloboTicket.TicketManagement.Application/GloboTicket.TicketManagement.Application.csproj" Id="48d70162-1737-4baa-a5e2-e58d4796bf87" />
     <Project Path="GloboTicket.TicketManagement.Domain/GloboTicket.TicketManagement.Domain.csproj" />
   </Folder>
   <Folder Name="/src/Infrastructure/" />
