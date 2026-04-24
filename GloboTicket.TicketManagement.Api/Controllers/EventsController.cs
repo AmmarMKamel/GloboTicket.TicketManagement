@@ -54,7 +54,7 @@ namespace GloboTicket.TicketManagement.Api.Controllers
             return NoContent();
         }
 
-        [HttpDelete("{id}", Name = "DeleteEvent")]\
+        [HttpDelete("{id}", Name = "DeleteEvent")]
         [ProducesDefaultResponseType]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
