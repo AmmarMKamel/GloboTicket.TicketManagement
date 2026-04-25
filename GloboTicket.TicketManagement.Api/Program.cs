@@ -5,6 +5,11 @@ var app = builder
     .ConfigureServices()
     .ConfigurePipeline();
 
-await app.ResetDatabaseAsync();
+if (!app.Environment.IsEnvironment("Testing"))
+{
+    await app.ResetDatabaseAsync();
+}
 
 app.Run();
+
+public partial class Program { };
